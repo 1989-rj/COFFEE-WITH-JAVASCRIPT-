@@ -14,3 +14,60 @@ console.log(number === string); // false
 //In this case it turns the string "5" into the number 5 and if we do normal comparison using this operator "==" it will give the ouput as true
 //if we do strict  comparison which can be done  usinf this operator "===" it will give the ouput as false
 
+
+//q2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//q4
+// prefix:in this case operator comes before the variable//++x
+//postfix:in this case operator comes after the variable//x++
+
+
+//example for prefix
+//let x=6;
+//let y=++x;
+//as we can see the output
+//console.log(x)//7
+//console.log(y)//7
+//operator comes before the variable because of which first increment will occur then value will be printed
+
+//example for postfix
+let x=6;
+let y=x++;
+console.log(x)
+console.log(y)
+
+//operator comes after the variable because of which first value x is printed then incement will happen if we print this agasin then output will be incremented
+
+
+//q5
+
+//In simple words, being "weakly typed" in JavaScript means that the data type of a variable can change without telling the prograsm to that
+variable="hello world"
+console.log(variable)//hello world
+//now its a string and the output is hello world
+
+
+
+
+
+
