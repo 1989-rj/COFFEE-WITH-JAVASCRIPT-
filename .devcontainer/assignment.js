@@ -16,16 +16,45 @@ console.log(number === string); // false
 
 
 //q2
+//primitive data type: it directly stores in the memory 
+//Numbers:it represent numeric values Example: let num = 42
+//Strings: it epresent sequences of characters Example: let str = "Hello World!"
+//Booleans:it  represent true or false values Example: let isTrue = true
+
+//number
+let num=19
+console.log(num)
+//strings
+let word="hello world";
+console.log(word);//"hello world"
+//boolean
+let age = 54;
+let isAdult = age >= 18;
+
+console.log(isAdult)
+
+
+
+
+//non primitive data type:
+//object: Objects are used to store and structure data in a way that allows for the organization of related information
+//example :
+
+let person = {
+    name: "Rutuj",
+    age: 19,
+    isStudent: true
+  };
+  
+  console.log(person.name); // "Rutuj"
+  console.log(person["age"]); // 19
 
 
 
 
 
-
-
-
-
-
+  
+  
 
 
 
@@ -57,6 +86,13 @@ console.log(x)
 console.log(y)
 
 //operator comes after the variable because of which first value x is printed then incement will happen if we print this agasin then output will be incremented
+
+
+
+
+
+
+
 
 
 //q5
