@@ -22,8 +22,8 @@ console.log(number === string); // false
 //Booleans:it  represent true or false values Example: let isTrue = true
 
 //number
-let num=19
-console.log(num)
+let nume=19
+console.log(nume)
 //strings
 let word="hello world";
 console.log(word);//"hello world"
@@ -49,16 +49,45 @@ let person = {
   console.log(person.name); // "Rutuj"
   console.log(person["age"]); // 19
 
+//#behaviour in memory
 
+//Primitive data types are stored directly in memory,
+//They are allocated a fixed amount of space in memory, which is determined by the type of the primitive
 
-
-
+//Non-primitive types are stored as references in memory,
+//The variable holds a reference (memory address) pointing to the location where the actual data is stored
   
   
 
 
 
+//q3
+// Primitive Data Types
+let num = 42;
+let str = "Hello, World!";
+let bool = true;
+let nul = null;
+let undef;
+let symb = Symbol("symbol");
 
+console.log(typeof num);   // Output: number
+console.log(typeof str);   // Output: string
+console.log(typeof bool);  // Output: boolean
+console.log(typeof nul);   // Output: object 
+console.log(typeof undef); // Output: undefined
+console.log(typeof symb);  // Output: symbol
+
+// Non-Primitive Data Type (Object)
+let obj = { key: "value" };
+console.log(typeof obj);   // Output: object
+
+// Non-Primitive Data Type (Array)
+let arr = [1, 2, 3];
+console.log(typeof arr);   // Output: object
+
+// Non-Primitive Data Type (Function)
+let func = function() {};
+console.log(typeof func);  // Output: function
 
 
 
@@ -85,7 +114,7 @@ let y=x++;
 console.log(x)
 console.log(y)
 
-//operator comes after the variable because of which first value x is printed then incement will happen if we print this agasin then output will be incremented
+//operator comes after the variable because of which first value x is printed then increment will happen if we print this agasin then output will be incremented
 
 
 
